@@ -10,4 +10,6 @@ resource "aws_instance" "example" {
     instance_type = var.instance_type_value
 }
 
+resoure "aws_s3"
+
 
